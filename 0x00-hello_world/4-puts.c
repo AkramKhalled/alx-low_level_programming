@@ -3,11 +3,9 @@
 /**
  * main - enrty point
  * description: this program prints the next sentence with new line using puts
- * return is always 0 as it means success
- *
-*/
-
-int main(void)
+ * Return: 0
+ */
+int main(0)\\return value equals 0 means success
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
