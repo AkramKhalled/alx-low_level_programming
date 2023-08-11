@@ -5,7 +5,7 @@
  * Return: always equal 0 means seccess
 */
 
-int main(void) \\main is the entry block
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
