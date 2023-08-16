@@ -1,13 +1,19 @@
-#include <stdio.h>
+#include <main.h>
+
 /**
- * main - Entry point
- * Description: program that prints a word
+ * main - entry point
+ * Description: Prints _putchar using putchar prototype
  * Return: 0 success
 */
-int main(void)
-{
-int word;
 
-	printf("_putchar\n", word);
+int main(void)
+
+{
+	char str[] +"_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
 	return (0);
 }
